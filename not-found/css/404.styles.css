@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +45,8 @@ a { text-decoration: none }
   gap: 8px;
   color: #ffffff8f;
 }
+
+.material-icons { user-select: none }
 
 /* -- 404 TEXT -- */
 
@@ -95,3 +96,55 @@ a { text-decoration: none }
 }
 
 .btn-back:hover { background: #ffffff50 }
+
+/* -- BACKGROUND SWITCHING -- */
+
+.bg-switch {
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  width: 42px;
+  height: 42px;
+  background: #ffffff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: width 0.35s ease, border-radius 0.35s ease, background 0.3s ease;
+  z-index: 10;
+}
+
+.bg-switch:hover { width: 60px }
+
+.bg-icon {
+  font-size: 22px;
+  color: #ffffff8f;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.bg-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.bg-switch:hover .bg-controls { opacity: 1 }
+
+.bg-switch:hover .bg-icon { opacity: 0 }
+
+.bg-controls .material-icons {
+  font-size: 24px;
+  color: #ffffff8f;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.bg-controls .material-icons:hover { transform: scale(1.2) }
