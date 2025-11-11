@@ -8,7 +8,7 @@ const backgrounds = [
 ];
 
 // Initial index
-let bgIndex = Math.round(Math.random()*2);
+let bgIndex = Math.round(Math.random() * 2);
 
 // Select buttons
 const prevBg = document.querySelector(".prev-bg");

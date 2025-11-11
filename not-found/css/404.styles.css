@@ -14,7 +14,9 @@ body {
   overflow: hidden;
 }
 
-a { text-decoration: none }
+a {
+  text-decoration: none
+}
 
 /* -- GLASSMORPHISM EFFECT -- */
 
@@ -46,7 +48,9 @@ a { text-decoration: none }
   color: #ffffff8f;
 }
 
-.material-icons { user-select: none }
+.material-icons {
+  user-select: none
+}
 
 /* -- 404 TEXT -- */
 
@@ -95,7 +99,9 @@ a { text-decoration: none }
   box-shadow: 4px 4px 0px 0px rgba(255, 255, 255, 0.5);
 }
 
-.btn-back:hover { background: #ffffff50 }
+.btn-back:hover {
+  background: #ffffff50
+}
 
 /* -- BACKGROUND SWITCHING -- */
 
@@ -115,7 +121,9 @@ a { text-decoration: none }
   z-index: 10;
 }
 
-.bg-switch:hover { width: 60px }
+.bg-switch:hover {
+  width: 60px
+}
 
 .bg-icon {
   font-size: 22px;
@@ -136,9 +144,13 @@ a { text-decoration: none }
   transition: opacity 0.3s ease;
 }
 
-.bg-switch:hover .bg-controls { opacity: 1 }
+.bg-switch:hover .bg-controls {
+  opacity: 1
+}
 
-.bg-switch:hover .bg-icon { opacity: 0 }
+.bg-switch:hover .bg-icon {
+  opacity: 0
+}
 
 .bg-controls .material-icons {
   font-size: 24px;
@@ -147,4 +159,6 @@ a { text-decoration: none }
   transition: transform 0.2s ease;
 }
 
-.bg-controls .material-icons:hover { transform: scale(1.2) }
+.bg-controls .material-icons:hover {
+  transform: scale(1.2)
+}
