@@ -169,6 +169,24 @@ a {
   background: #ffffff50
 }
 
+/* -- MUSIC LICENSE -- */
+
+.music-license-link {
+  font-family: "Stack Sans Notch", sans-serif;
+  font-weight: 200;
+  font-size: x-small;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  color: #ffffff8f;
+  padding-bottom: 5px;
+  transition: 0.2s ease;
+}
+
+.music-license-link:hover {
+  color: white
+}
+
 /* -- BACKGROUND SWITCHING -- */
 
 .bg-switch {
@@ -227,4 +245,22 @@ a {
 
 .bg-controls .material-icons:hover {
   transform: scale(1.2)
+}
+
+@media (max-width: 600px) {
+
+  .logo a .name {
+    display: none
+  }
+
+  .error_code {
+    font-size: 15vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+
+  .music-widget:hover {
+    width: 75%
+  }
+
 }
