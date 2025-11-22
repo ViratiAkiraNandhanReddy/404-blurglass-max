@@ -3,6 +3,7 @@
     <img src="https://img.shields.io/github/repo-size/ViratiAkiraNandhanReddy/404-blurglass-max" alt="Repo Size" />
     <img src="https://api.visitorbadge.io/api/visitors?path=ViratiAkiraNandhanReddy/404-blurglass-max&label=Repository%20Visits&style=flat" alt="Visits" />
     <img src="https://img.shields.io/github/issues/ViratiAkiraNandhanReddy/404-blurglass-max" alt="Issues" />
+    <a href="https://github.com/ViratiAkiraNandhanReddy/awful"><img src="https://img.shields.io/badge/awful-Passively%20Maintained-2F855A?style=flat&logo=github&logoColor=white" alt="AWFUL - Passively Maintained"/></a>
     <img src="https://img.shields.io/github/stars/ViratiAkiraNandhanReddy/404-blurglass-max?style=social" alt="Stars" />
   <h1>404-blurglass-max</h1>
   <p><em>Advanced glassmorphism 404 page with music player and background switching.</em></p>
