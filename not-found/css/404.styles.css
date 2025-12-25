@@ -124,7 +124,7 @@ a {
   color: #ffffff8f;
   font-family: "Stack Sans Notch", sans-serif;
   font-weight: 700;
-  font-size: 30vh;
+  font-size: clamp(6rem, 20vw, 30vh);
   margin-top: 5vh;
   margin-bottom: 5vh;
   text-align: center;
@@ -247,7 +247,7 @@ a {
   transform: scale(1.2)
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
   .logo a .name {
     display: none
